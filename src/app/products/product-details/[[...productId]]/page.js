@@ -7,7 +7,7 @@ import { addToCart } from "@/redux/slice/cartSlice";
 import { useSelector,useDispatch } from "react-redux";
 import { initialState } from "@/redux/slice/cartSlice";
 
-const page = ({params}) => {
+const Page = ({params}) => {
   const [counter,setCounter] = useState(1);
   const cart = useSelector((state) => state.cartReducer.cart);
 console.log(cart);
@@ -1247,4 +1247,4 @@ setCounter(counter+1)
   )
 }
 
-export default page
+export default Page
