@@ -61,14 +61,14 @@ getProduct();
     <div className="mt-4 grid grid-cols-5 gap-4 max-md:grid-cols-2 max-md:gap-2">
       {/* iphone */}
       <>
-    {!products.length?<h1>Không còn sản phẩm</h1>:<>{products.map(({id,price,image_url,phone_id,description})=>{
+    {!products.length?<h1>Không còn sản phẩm</h1>:<>{products.map(({id,price,image_url,phone_id,description},index)=>{
 
 
 const priceProduct = parseInt(price).toLocaleString('vi-VN', { style: 'currency', currency: 'VND' });
 
 
 
-      return <div>
+      return <div key={index}>
       <a
         title="iPhone 11 64GB Chính Hãng (VN/A)"
         className="item-slider-mobile md:item-slider border-1 col-span-1 h-full flex-col items-center justify-start rounded border-borderprod p-2 hover:border-white hover:drop-shadow-xl max-md:border-0"
