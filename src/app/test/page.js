@@ -4,7 +4,7 @@
 // import { useDispatch, useSelector } from "react-redux";
 // import { fetchTodo } from "@/redux/middlewares/todomiddleware";
 // const { auth: auth1 } = authSlice.actions;
-// const page = () => {
+// const Page = () => {
 //   const auth = useSelector((state) => state.auth.auth);
 //   const todo = useSelector((state) => state.todo.todolist);
 //   const dispatch = useDispatch();
@@ -31,4 +31,4 @@
 //   );
 // };
 
-// export default page;
+// export default Page;

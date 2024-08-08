@@ -5,7 +5,7 @@ import {  addToCart, removeFromCart, decrementQuantity,clearCart } from "@/redux
 import { toast } from "react-toastify"
 import { jwtDecode } from "jwt-decode"
 import instance from "@/setup/axios"
-const page = () => {
+const Page = () => {
   const [total,setTotal] = useState(0);
   const cart = useSelector((state) => state.cartReducer.cart);
   const onLogin = useSelector((state) => state.authLogin.onLogin);
@@ -401,4 +401,4 @@ toast.success("Xóa thành công")}
   )
 }
 
-export default page
+export default Page
