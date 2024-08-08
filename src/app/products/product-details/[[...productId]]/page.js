@@ -401,7 +401,7 @@ useEffect(()=>{
           <div className="relative my-2 text-justify text-16 leading-7 antialiased">
             <p>
               <span style={{ fontWeight: 400 }}>
-                <strong>iPhone 15 Pro Max 256GB Chính hãng (VN/A)</strong>{" "}
+                <strong>iPhone 15 Pro Max 256GB Chính hãng VN/A</strong>{" "}
                 <strong>chính thống</strong> giá rẻ chỉ có tại Di Động Việt -{" "}
                 <strong>Đại lý uỷ quyền chính thức của Apple</strong> tại Việt
                 Nam. Với thiết kế đầy sang trọng đẳng cấp, cùng với những trang
@@ -422,7 +422,7 @@ useEffect(()=>{
   <div className="" id="blockPrice">
     <div className="relative w-full flex-col justify-start">
       <h1 className="productmobile text-20 font-bold max-md:text-16 max-md:font-bold">
-        iPhone 15 Pro Max 256GB Chính hãng (VN/A)
+        iPhone 15 Pro Max 256GB Chính hãng VN/A
       </h1>
       
       <div className="flex items-center box-rating justify-start max-md:pt-2">
@@ -1017,11 +1017,11 @@ setCounter(counter+1)
           </button>
         </div>
         <p className="text-center text-sm text-black">
-          Gọi đặt mua{" "}
+          Gọi đặt mua
           <span className="font-bold text-ddv">
-            <a >1800.6018</a>{" "}
+            <a >1800.6018</a>
           </span>
-          (7:30 - 22:00)
+          7:30 - 22:00
         </p>
         <div className="my-2 md:hidden">
           <div className="box-cmt-info w-full rounded bg-pink p-2">
@@ -1083,7 +1083,7 @@ setCounter(counter+1)
                     vòng&nbsp;<strong>33 ngày</strong>. Bảo hành chính
                     hãng&nbsp;<strong>12 tháng&nbsp;</strong>
                   </span>
-                  (
+                  
                   <a
                     
                     target="_blank"
@@ -1091,12 +1091,12 @@ setCounter(counter+1)
                   >
                     Xem chi tiết
                   </a>
-                  )<div>&nbsp;</div>
+                  <div>&nbsp;</div>
                 </div>
                 <div className="rich-text-paragraph" data-eleid={32}>
                   <span className="text-only" data-eleid={33}>
                     Bảo hành Hư lỗi - Đổi mới&nbsp;<strong>12 tháng</strong>,
-                    rơi vỡ với D.Care (
+                    rơi vỡ với D.Care 
                     <a
                       
                       target="_blank"
@@ -1104,7 +1104,7 @@ setCounter(counter+1)
                     >
                       Xem chi tiết
                     </a>
-                    )
+                    
                   </span>
                 </div>
               </div>
@@ -1126,7 +1126,7 @@ setCounter(counter+1)
                   
                   className="text-linkxanh"
                 >
-                  (Xem chi tiết)
+                  Xem chi tiết
                 </a>
               </p>
             </div>
@@ -1140,23 +1140,23 @@ setCounter(counter+1)
                   target="_blank"
                   className="text-linkxanh"
                 >
-                  (Xem chi tiết)
+                  Xem chi tiết
                 </a>
               </p>
             </div>
             <div className="flex items-center py-2">
              
               <p className="pl-2 text-left text-14 font-bold">
-                Mua kèm bảo hành hư lỗi đổi mới{" "}
+                Mua kèm bảo hành hư lỗi đổi mới
                 <a
                   
                   target="_blank"
                   className="text-linkxanh"
                 >
-                  (Xem chi tiết)
-                </a>{" "}
+                  Xem chi tiết
+                </a>
               </p>
-            </div>{" "}
+            </div>
             <ul className="ml-8 text-[14px] list-disc ">
               <li className="pb-1">
                 Tặng ngay gói bảo hành đến 2,5 năm&nbsp;
@@ -1166,7 +1166,7 @@ setCounter(counter+1)
                   
                   className="text-linkxanh"
                 >
-                  (Xem chi tiết)
+                  Xem chi tiết
                 </a>
               </li>
               <li className="pb-1">
@@ -1176,7 +1176,7 @@ setCounter(counter+1)
                   
                   className="text-linkxanh"
                 >
-                  (Xem chi tiết)
+                  Xem chi tiết
                 </a>
               </li>
             </ul>
@@ -1190,7 +1190,7 @@ setCounter(counter+1)
                   
                   className="text-linkxanh"
                 >
-                  (Xem chi tiết)
+                  Xem chi tiết
                 </a>
               </p>
             </div>
@@ -1198,13 +1198,13 @@ setCounter(counter+1)
             
               <p className="pl-2 text-left text-14">
                 Giảm thêm <span className="font-bold">500.000đ</span> mở thẻ qua
-                VIB{" "}
+                VIB
                 <a
                   target="_blank"
                   
                   className="text-linkxanh"
                 >
-                  (Xem chi tiết)
+                  Xem chi tiết
                 </a>
               </p>
             </div>
@@ -1212,12 +1212,12 @@ setCounter(counter+1)
             
               <p className="pl-2 text-left text-14">
                 Giảm <span className="font-bold">5%</span> đơn hàng thanh toán
-                Home Paylater{" "}
+                Home Paylater
                 <a
                   target="_blank"          
                   className="text-linkxanh"
                 >
-                  (Xem chi tiết)
+                  Xem chi tiết
                 </a>
               </p>
             </div>

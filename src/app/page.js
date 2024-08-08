@@ -654,15 +654,6 @@ export default function Home() {
               className="swiper-wrapper"
               style={{ transform: "translate3d(0px, 0px, 0px)" }}
             >
-             
-            
-             
-              
-          
-           
-            
-             
-            
             </div>
             <div className="swiper-button-prev swiper-button-disabled" />
             <div className="swiper-button-next" />
