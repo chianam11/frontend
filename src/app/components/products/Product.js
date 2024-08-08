@@ -59,7 +59,7 @@ getProduct();
     </div>
     //
     <div className="mt-4 grid grid-cols-5 gap-4 max-md:grid-cols-2 max-md:gap-2">
-      {/* iphone */}
+      
       <>
     {!products.length?<h1>Không còn sản phẩm</h1>:<>{products.map(({id,price,image_url,phone_id,description},index)=>{
 
@@ -79,7 +79,7 @@ const priceProduct = parseInt(price).toLocaleString('vi-VN', { style: 'currency'
           className="pb-2 flex w-full items-center justify-start"
         >
           <p className="border-1 m-1 items-center whitespace-nowrap rounded border-ddv bg-ddv px-2 py-1 text-11 text-white max-md:text-10">
-            Giảm {/* */}45{/* */}%
+            Giảm 45%
           </p>
           <p className="border-1 m-1 whitespace-nowrap rounded border-ddv bg-white px-2 py-1 text-11 font-medium text-ddv max-md:text-10">
             Trả góp 0%
