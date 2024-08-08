@@ -119,7 +119,6 @@ button,select {
 [type=button],[type=reset],[type=submit],button {
     -webkit-appearance: button;
     background-color: initial;
-    background-image: none
 }
 
 :-moz-focusring {
@@ -250,7 +249,6 @@ input::placeholder,textarea::placeholder {
 }
 
 select {
-    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3E%3Cpath stroke='%236b7280' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='m6 8 4 4 4-4'/%3E%3C/svg%3E");
     background-position: right .5rem center;
     background-repeat: no-repeat;
     background-size: 1.5em 1.5em;
@@ -261,7 +259,6 @@ select {
 }
 
 [multiple],[size]:where(select:not([size="1"])) {
-    background-image: none;
     background-position: 0 0;
     background-repeat: unset;
     background-size: initial;
@@ -318,11 +315,9 @@ select {
 }
 
 [type=checkbox]:checked {
-    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 16 16'%3E%3Cpath d='M12.207 4.793a1 1 0 0 1 0 1.414l-5 5a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L6.5 9.086l4.293-4.293a1 1 0 0 1 1.414 0'/%3E%3C/svg%3E")
 }
 
 [type=radio]:checked {
-    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 16 16'%3E%3Ccircle cx='8' cy='8' r='3'/%3E%3C/svg%3E")
 }
 
 [type=checkbox]:checked:focus,[type=checkbox]:checked:hover,[type=checkbox]:indeterminate,[type=radio]:checked:focus,[type=radio]:checked:hover {
@@ -331,7 +326,6 @@ select {
 }
 
 [type=checkbox]:indeterminate {
-    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 16 16'%3E%3Cpath stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M4 8h8'/%3E%3C/svg%3E");
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: 100% 100%
@@ -2161,11 +2155,9 @@ select {
 }
 
 .bg-\[linear-gradient\(180deg\2c \#54c5ed_0\%\2c \#006ec7_100\%\)\] {
-    background-image: linear-gradient(180deg,#54c5ed,#006ec7)
 }
 
 .bg-gradient-to-b {
-    background-image: linear-gradient(to bottom,var(--tw-gradient-stops))
 }
 
 .from-transparent {
@@ -3578,7 +3570,6 @@ span.ant-input-affix-wrapper.input-desktop {
 }
 
 .checked-product {
-    background-image: url(/_next/static/media/checked.ddacf926.png);
     height: 21px;
     position: absolute;
     right: 0;
@@ -3734,7 +3725,6 @@ span.ant-input-affix-wrapper.input-desktop {
 }
 
 .swiper-button-prev:after {
-    background-image: url(/svg/statics/arrowleft.svg)!important
 }
 
 .swiper-button-next:after,.swiper-button-prev:after {
@@ -3746,7 +3736,6 @@ span.ant-input-affix-wrapper.input-desktop {
 }
 
 .swiper-button-next:after {
-    background-image: url(/svg/statics/arrowright.svg)!important
 }
 
 .swiper-button-prev {
@@ -5912,7 +5901,6 @@ button.mantine-UnstyledButton-root.mantine-Button-root.mantine-Group-child.manti
 }
 
 [type=checkbox]:checked {
-    background-image: none!important
 }
 
 .mantine-Checkbox-inner {
@@ -7711,22 +7699,18 @@ h1.productmobile {
 }
 
 .landingpage-header {
-    background-image: #f3f3f3;
     background-size: cover
 }
 
 .gift-body {
-    background-image: url(/images/mylandingpage/samsung/z5/preorder/gift/bg.png);
     background-size: cover
 }
 
 .section-game {
-    background-image: url(/images/mylandingpage/samsung/z5/preorder/background.jpg);
     background-size: cover
 }
 
 .tradein-body {
-    background-image: url(/images/mylandingpage/samsung/z5/preorder/tradein/bg.png);
     background-size: cover
 }
 
@@ -7743,7 +7727,6 @@ h1.productmobile {
 }
 
 .bg-other-watch {
-    background-image: url(/images/mylandingpage/samsung/z5/other/MAIN-BG-WATCH.png);
     background-size: cover
 }
 
@@ -7798,7 +7781,6 @@ h1.productmobile {
 }
 
 #L-b2b .slider-bussiness {
-    background-image: url(/_next/static/media/background-slider.2aacc919.png);
     background-repeat: no-repeat;
     background-size: cover
 }
@@ -8186,7 +8168,6 @@ h1.productmobile {
 
 .hoa-1 {
     animation-delay: 6s,.5s;
-    background-image: url(/images/tet/hoamai.png);
     font-size: 2.5em;
     left: 10%
 }
@@ -8198,7 +8179,6 @@ h1.productmobile {
 }
 
 .hoa-2,.hoa-3 {
-    background-image: url(/images/tet/hoadao.png)
 }
 
 .hoa-3 {
@@ -8209,20 +8189,17 @@ h1.productmobile {
 
 .hoa-4 {
     animation-delay: 3s,1.5s;
-    background-image: url(/images/tet/hoamai.png);
     font-size: 2.1em;
     left: 50%
 }
 
 .hoa-5 {
     animation-delay: 2s,2s;
-    background-image: url(/images/tet/hoadao.png);
     font-size: 2.3em;
     left: 70%
 }
 
 .hoa-6 {
-    background-image: url(/images/tet/hoamai.png);
     left: 80%
 }
 
@@ -8232,7 +8209,6 @@ h1.productmobile {
 }
 
 .hoa-7 {
-    background-image: url(/images/tet/hoadao.png);
     left: 90%
 }
 
@@ -8406,19 +8382,15 @@ h1.productmobile {
 }
 
 .swiper-3d .swiper-slide-shadow-left {
-    background-image: linear-gradient(270deg,rgba(0,0,0,.5),transparent)
 }
 
 .swiper-3d .swiper-slide-shadow-right {
-    background-image: linear-gradient(90deg,rgba(0,0,0,.5),transparent)
 }
 
 .swiper-3d .swiper-slide-shadow-top {
-    background-image: linear-gradient(0deg,rgba(0,0,0,.5),transparent)
 }
 
 .swiper-3d .swiper-slide-shadow-bottom {
-    background-image: linear-gradient(180deg,rgba(0,0,0,.5),transparent)
 }
 
 .swiper-css-mode>.swiper-wrapper {
@@ -9362,7 +9334,6 @@ button,select {
 [type=button],[type=reset],[type=submit],button {
     -webkit-appearance: button;
     background-color: initial;
-    background-image: none
 }
 
 :-moz-focusring {
@@ -9493,7 +9464,6 @@ input::placeholder,textarea::placeholder {
 }
 
 select {
-    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3E%3Cpath stroke='%236b7280' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='m6 8 4 4 4-4'/%3E%3C/svg%3E");
     background-position: right .5rem center;
     background-repeat: no-repeat;
     background-size: 1.5em 1.5em;
@@ -9504,7 +9474,6 @@ select {
 }
 
 [multiple],[size]:where(select:not([size="1"])) {
-    background-image: none;
     background-position: 0 0;
     background-repeat: unset;
     background-size: initial;
@@ -9561,11 +9530,9 @@ select {
 }
 
 [type=checkbox]:checked {
-    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 16 16'%3E%3Cpath d='M12.207 4.793a1 1 0 0 1 0 1.414l-5 5a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L6.5 9.086l4.293-4.293a1 1 0 0 1 1.414 0'/%3E%3C/svg%3E")
 }
 
 [type=radio]:checked {
-    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 16 16'%3E%3Ccircle cx='8' cy='8' r='3'/%3E%3C/svg%3E")
 }
 
 [type=checkbox]:checked:focus,[type=checkbox]:checked:hover,[type=checkbox]:indeterminate,[type=radio]:checked:focus,[type=radio]:checked:hover {
@@ -9574,7 +9541,6 @@ select {
 }
 
 [type=checkbox]:indeterminate {
-    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 16 16'%3E%3Cpath stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M4 8h8'/%3E%3C/svg%3E");
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: 100% 100%
@@ -11404,11 +11370,9 @@ select {
 }
 
 .bg-\[linear-gradient\(180deg\2c \#54c5ed_0\%\2c \#006ec7_100\%\)\] {
-    background-image: linear-gradient(180deg,#54c5ed,#006ec7)
 }
 
 .bg-gradient-to-b {
-    background-image: linear-gradient(to bottom,var(--tw-gradient-stops))
 }
 
 .from-transparent {
@@ -12821,7 +12785,6 @@ span.ant-input-affix-wrapper.input-desktop {
 }
 
 .checked-product {
-    background-image: url(/_next/static/media/checked.ddacf926.png);
     height: 21px;
     position: absolute;
     right: 0;
@@ -12977,7 +12940,6 @@ span.ant-input-affix-wrapper.input-desktop {
 }
 
 .swiper-button-prev:after {
-    background-image: url(/svg/statics/arrowleft.svg)!important
 }
 
 .swiper-button-next:after,.swiper-button-prev:after {
@@ -12989,7 +12951,6 @@ span.ant-input-affix-wrapper.input-desktop {
 }
 
 .swiper-button-next:after {
-    background-image: url(/svg/statics/arrowright.svg)!important
 }
 
 .swiper-button-prev {
@@ -15155,7 +15116,6 @@ button.mantine-UnstyledButton-root.mantine-Button-root.mantine-Group-child.manti
 }
 
 [type=checkbox]:checked {
-    background-image: none!important
 }
 
 .mantine-Checkbox-inner {
@@ -16954,22 +16914,18 @@ h1.productmobile {
 }
 
 .landingpage-header {
-    background-image: #f3f3f3;
     background-size: cover
 }
 
 .gift-body {
-    background-image: url(/images/mylandingpage/samsung/z5/preorder/gift/bg.png);
     background-size: cover
 }
 
 .section-game {
-    background-image: url(/images/mylandingpage/samsung/z5/preorder/background.jpg);
     background-size: cover
 }
 
 .tradein-body {
-    background-image: url(/images/mylandingpage/samsung/z5/preorder/tradein/bg.png);
     background-size: cover
 }
 
@@ -16986,7 +16942,6 @@ h1.productmobile {
 }
 
 .bg-other-watch {
-    background-image: url(/images/mylandingpage/samsung/z5/other/MAIN-BG-WATCH.png);
     background-size: cover
 }
 
@@ -17041,7 +16996,6 @@ h1.productmobile {
 }
 
 #L-b2b .slider-bussiness {
-    background-image: url(/_next/static/media/background-slider.2aacc919.png);
     background-repeat: no-repeat;
     background-size: cover
 }
@@ -17429,7 +17383,6 @@ h1.productmobile {
 
 .hoa-1 {
     animation-delay: 6s,.5s;
-    background-image: url(/images/tet/hoamai.png);
     font-size: 2.5em;
     left: 10%
 }
@@ -17441,7 +17394,6 @@ h1.productmobile {
 }
 
 .hoa-2,.hoa-3 {
-    background-image: url(/images/tet/hoadao.png)
 }
 
 .hoa-3 {
@@ -17452,20 +17404,17 @@ h1.productmobile {
 
 .hoa-4 {
     animation-delay: 3s,1.5s;
-    background-image: url(/images/tet/hoamai.png);
     font-size: 2.1em;
     left: 50%
 }
 
 .hoa-5 {
     animation-delay: 2s,2s;
-    background-image: url(/images/tet/hoadao.png);
     font-size: 2.3em;
     left: 70%
 }
 
 .hoa-6 {
-    background-image: url(/images/tet/hoamai.png);
     left: 80%
 }
 
@@ -17475,7 +17424,6 @@ h1.productmobile {
 }
 
 .hoa-7 {
-    background-image: url(/images/tet/hoadao.png);
     left: 90%
 }
 
@@ -17649,19 +17597,15 @@ h1.productmobile {
 }
 
 .swiper-3d .swiper-slide-shadow-left {
-    background-image: linear-gradient(270deg,rgba(0,0,0,.5),transparent)
 }
 
 .swiper-3d .swiper-slide-shadow-right {
-    background-image: linear-gradient(90deg,rgba(0,0,0,.5),transparent)
 }
 
 .swiper-3d .swiper-slide-shadow-top {
-    background-image: linear-gradient(0deg,rgba(0,0,0,.5),transparent)
 }
 
 .swiper-3d .swiper-slide-shadow-bottom {
-    background-image: linear-gradient(180deg,rgba(0,0,0,.5),transparent)
 }
 
 .swiper-css-mode>.swiper-wrapper {

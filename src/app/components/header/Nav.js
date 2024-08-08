@@ -14,6 +14,7 @@ import { jwtDecode } from "jwt-decode";
 import loginSlice from "@/redux/slice/authSlice";
 import { tokenSlice } from "@/redux/slice/token";
 import { toast } from "react-toastify";
+import Link from "next/link";
 const { login } = loginSlice.actions;
 const { setRefreshToken, setToken } = tokenSlice.actions;
 const Nav = () => {
@@ -60,9 +61,7 @@ if(access_Token){
           </a>
         </div>
         <div className="md:hidden max-md:w-1/6 pl-1">
-          <button>
-            <img src="/svg/Header/Mobile/menu.svg" alt="menu icon" />
-          </button>
+          
         </div>
         <div className=" max-md:w-4/6 md:w-2/6">
         
@@ -71,11 +70,7 @@ if(access_Token){
             href="/"
           >
             <div className="md:hidden text-center">
-              <img
-                className="max-h-[30px] mx-auto"
-                src="/svg/Header/logowhite.svg"
-                alt="Di Động Việt - Chuyển giao giá trị vượt trội"
-              />
+              
             </div>
             <div className="max-md:hidden">
               <img
@@ -92,13 +87,9 @@ if(access_Token){
           </a>
         </div>
         <div className="md:hidden pr-1 text-right max-md:w-1/6">
-          <a href="/check-out">
-            <img
-              className="ml-auto"
-              src="/svg/Header/Mobile/trolly.svg"
-              alt="giỏ hàng di động việt"
-            />
-          </a>
+          <Link href="/check-out">
+           
+          </Link>
         </div>
         <div className="max-md:col-span-5 max-md:hidden md:w-2/6">
           <div className="md:mt-5 relative w-full flex  flex-col items-end   justify-end antialiased">
@@ -283,13 +274,7 @@ if(access_Token){
               className="relative flex items-center justify-center"
               style={{ height: 50 }}
             >
-              <img
-                src="/images/mobile/cart.png"
-                width={21}
-                height={27}
-                alt="DDV"
-                style={{ height: 27, objectFit: "contain" }}
-              />
+              
               <div className="absolute" style={{ top: 20, left: 20 }}>
                 <p className="text-14 font-bold tracking-wide text-ddv subpixel-antialiased">
                   1

@@ -4,7 +4,6 @@ export const metadata = {
 };
 import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
-import NavFooter from "./components/header/NavFooter";
 import Providers from "@/redux/Provider";
 import global from "./global.css";
 
@@ -14,14 +13,13 @@ import { ToastContainer } from 'react-toastify';
 export default function RootLayout({ children,params }) {
   return (
     <html lang="en">
-      <body>
+      <body suppressHydrationWarning={true}>
         <Providers>
           <ToastContainer />
           <Header />
           {children}
           
           <Footer />
-          <NavFooter />
         </Providers>
       </body>
     </html>
