@@ -103,9 +103,9 @@ dispatch(clearCart())
             </div>
           </div>
           <div className="h-px w-full bg-border" />
-         {cart.length?<>{cart.map(({description,id,image_url,price,quantity,phone_id})=>{
+         {cart.length?<>{cart.map(({description,id,image_url,price,quantity,phone_id},index)=>{
           
-          return  <div className="grid w-full grid-cols-7 items-center max-md:hidden">
+          return  <div className="grid w-full grid-cols-7 items-center max-md:hidden" key={index}>
           <div className="col-span-3 flex w-full flex-col items-center justify-start  overflow-hidden  px-2 py-2 text-sm text-gray-900">
             <div className="flex w-full items-center justify-start">
               <div style={{ width: "20%" }}>
